@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticonda15.html?7af20aeafccf3d2275f79fbc36e4726e") format("truetype"),
+url("../fonts/flaticonda15-2.html?7af20aeafccf3d2275f79fbc36e4726e") format("woff"),
+url("../fonts/flaticonda15-3.html?7af20aeafccf3d2275f79fbc36e4726e") format("woff2"),
+url("../fonts/flaticonda15-4.html?7af20aeafccf3d2275f79fbc36e4726e#iefix") format("embedded-opentype"),
+url("../fonts/flaticonda15-5.html?7af20aeafccf3d2275f79fbc36e4726e#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-broken:before {
+    content: "\f101";
+}
+.flaticon-notes:before {
+    content: "\f102";
+}
+.flaticon-favourite:before {
+    content: "\f103";
+}
+.flaticon-user:before {
+    content: "\f104";
+}
+.flaticon-right-arrow:before {
+    content: "\f105";
+}
+.flaticon-left-quote:before {
+    content: "\f106";
+}
+.flaticon-call:before {
+    content: "\f107";
+}
+.flaticon-email:before {
+    content: "\f108";
+}
+.flaticon-history:before {
+    content: "\f109";
+}
+.flaticon-baby-1:before {
+    content: "\f10a";
+}
+.flaticon-toys:before {
+    content: "\f10b";
+}
+.flaticon-pediatrics:before {
+    content: "\f10c";
+}
+.flaticon-playtime-1:before {
+    content: "\f10d";
+}
+.flaticon-baby-2:before {
+    content: "\f10e";
+}
+.flaticon-baby-changing-1:before {
+    content: "\f10f";
+}
+.flaticon-family:before {
+    content: "\f110";
+}
+.flaticon-children:before {
+    content: "\f111";
+}
+.flaticon-couple:before {
+    content: "\f112";
+}
+.flaticon-bank:before {
+    content: "\f113";
+}
+.flaticon-nursing-home:before {
+    content: "\f114";
+}
+.flaticon-old-woman:before {
+    content: "\f115";
+}
+.flaticon-motherhood:before {
+    content: "\f116";
+}
+.flaticon-happiness:before {
+    content: "\f117";
+}
+.flaticon-location:before {
+    content: "\f118";
+}
+.flaticon-handshake:before {
+    content: "\f119";
+}
+.flaticon-phone-call:before {
+    content: "\f11a";
+}
+.flaticon-location-1:before {
+    content: "\f11b";
+}
+.flaticon-pet:before {
+    content: "\f11c";
+}
+.flaticon-whatsapp:before {
+    content: "\f11d";
+}
+.flaticon-customer-support:before {
+    content: "\f11e";
+}
+.flaticon-medal:before {
+    content: "\f11f";
+}
+.flaticon-left-arrow:before {
+    content: "\f120";
+}
+.flaticon-maternity:before {
+    content: "\f121";
+}
+.flaticon-eye:before {
+    content: "\f122";
+}
+.flaticon-target:before {
+    content: "\f123";
+}
+.flaticon-history-1:before {
+    content: "\f124";
+}
