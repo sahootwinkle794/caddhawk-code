@@ -807,11 +807,13 @@ img.service-tab-image {
 .about-fid-block-wrapper {
   padding-left: 40px;
 }
-
+.row.row-cols-2.align-col{
+  width: 140%;
+}
 .fid-item {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgb(0 0 0 / 35%);
 }
 
 .fid-item.style2 {
@@ -843,7 +845,7 @@ img.service-tab-image {
 
 .prt-fid.style1:after {
   content: '';
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(0 0 0 / 33%);
   position: absolute;
   width: 1px;
   height: 100%;
@@ -1353,6 +1355,7 @@ img.service-tab-image {
 }
 
 .team-thumbnail {
+  z-index: 999;
   width: 108px;
   height: 108px;
 }

@@ -13,8 +13,22 @@
 
 @media only screen and (max-width: 2000px) and (min-width: 1901px) {
   .team-item-inner {
-    padding: 20px !important;
+    padding: 50px !important;
   }
+
+  .separator-line {
+    width: 1px;
+    height: 50vh;
+    margin-top: 50px;
+    background-color: #160eff;
+  }
+
+  .team-thumbnail {
+    z-index: 99999;
+    width: 101px;
+    height: 104px;
+  }
+ 
 }
 
 @media only screen and (max-width: 1900px) and (min-width: 1651px) {
@@ -105,11 +119,12 @@
   .section-title-heading {
     font-size: 40px;
   }
+
 }
 
 @media only screen and (max-width: 1650px) and (min-width: 1551px) {
   .team-item-inner {
-    padding: 5px !important;
+    padding: 25px !important;
   }
 
   nav.main-menu ul.menu>li>a {
