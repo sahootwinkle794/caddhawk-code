@@ -38,7 +38,7 @@ h3 {
   color: var(--base-headingfont-color);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 34px;
   font-weight: 500;
   line-height: 44px;
@@ -169,7 +169,7 @@ img.service-tab-image {
   color: var(--base-dark);
   text-transform: capitalize;
   padding: 29px 23px 31px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 19px;
   font-weight: 500;
   line-height: 20px;
@@ -204,7 +204,7 @@ img.service-tab-image {
 
 .nav-dropdown-icon {
   color: var(--base-dark);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 12px;
   font-weight: 500;
   line-height: 12px;
@@ -265,7 +265,7 @@ img.service-tab-image {
 }
 
 .header-extra-item a {
-  font-family: var(--base-headingfont), var(--base-bodyfont);
+  font-family: var(--base-bodyfont), var(--base-bodyfont);
   font-size: 18px;
   font-weight: 600;
   color: var(--base-white);
@@ -338,7 +338,7 @@ img.service-tab-image {
 .top-bar-contact-item span:first-child {
   font-size: 18px;
   font-weight: 500;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   color: var(--base-white);
 }
 
@@ -392,7 +392,7 @@ img.service-tab-image {
 .prt-header-style-2 .header-phone-info span {
   font-size: 18px;
   font-weight: 500;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   color: var(--base-black);
 }
 
@@ -454,7 +454,7 @@ img.service-tab-image {
 
 .hero-heading {
   color: var(--base-white);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 100px;
   font-weight: 400;
   line-height: 110px;
@@ -723,7 +723,7 @@ img.service-tab-image {
 .section-title-heading {
   color: var(--base-headingfont-color);
   margin-bottom: 18px;
-  font-family: var(--base-headingfont);
+  font-family:var(--base-bodyfont);
   font-size: 47px;
   font-weight: 500;
   line-height: 64px;
@@ -893,7 +893,7 @@ img.service-tab-image {
   color: var(--base-dark);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-weight: 500;
 }
 
@@ -989,7 +989,7 @@ img.service-tab-image {
   flex: none;
   padding-left: 40px;
   padding-right: 40px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 40px;
   font-weight: 500;
   line-height: 50px;
@@ -1010,7 +1010,7 @@ img.service-tab-image {
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-weight: 400;
   display: inline-block;
 }
@@ -1039,7 +1039,7 @@ img.service-tab-image {
   background-color: rgba(0, 0, 0, 0);
   border-bottom: 1px solid #d9d9d9;
   padding: 20px 20px 27px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 23px;
   font-weight: 500;
   line-height: 36px;
@@ -1122,7 +1122,7 @@ img.service-tab-image {
 .service-tab-list-icon {
   color: var(--base-dark);
   margin-right: 10px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-size: 12px;
   font-weight: 400;
   line-height: 26px;
@@ -1137,7 +1137,7 @@ img.service-tab-image {
   text-transform: capitalize;
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
@@ -1306,7 +1306,7 @@ img.service-tab-image {
   color: var(--base-dark);
   justify-content: flex-end;
   align-items: center;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -1322,7 +1322,7 @@ img.service-tab-image {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 20px;
   font-weight: 500;
   line-height: 20px;
@@ -1409,7 +1409,9 @@ img.service-tab-image {
   position: relative;
   overflow: hidden;
 }
-
+.fa-brands{
+  margin-right: 10px;
+}
 .testimonial-title-wrapper {
   position: relative;
 }
@@ -1466,7 +1468,7 @@ img.service-tab-image {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 0;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 20px;
   font-style: italic;
   font-weight: 500;
@@ -1662,8 +1664,8 @@ p.card__description.text-long-desc {
 }
 
 img.ft-logo {
-  width: 190px !important;
-  height: 93px !important;
+  width: 220px !important;
+  height: 68px !important;
 }
 
 .footer-widget.third-widget {
@@ -1724,7 +1726,7 @@ img.ft-logo {
   text-transform: capitalize;
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -1742,7 +1744,7 @@ img.ft-logo {
 
 .footer-subscribe-icon {
   color: var(--base-white);
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -1806,7 +1808,7 @@ img.ft-logo {
 .footer-address-icon {
   color: var(--base-white);
   margin-right: 15px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-weight: 400;
   text-decoration: none;
 }
@@ -1825,7 +1827,7 @@ img.ft-logo {
 .footer-contact-mail-icon {
   color: var(--base-white);
   margin-right: 15px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-weight: 400;
   text-decoration: none;
 }
@@ -1860,7 +1862,7 @@ img.ft-logo {
 
 .footer-widget-phone-link {
   color: var(--base-white);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 42px;
   font-weight: 500;
   line-height: 52px;
@@ -1983,7 +1985,7 @@ img.ft-logo {
   text-transform: capitalize;
   border-bottom: 1px solid var(--base-dark);
   padding-bottom: 5px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 84px;
   font-weight: 500;
   line-height: 112px;
@@ -2123,7 +2125,7 @@ img.ft-logo {
 
 .changing-image-link {
   color: var(--base-white);
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
@@ -2184,7 +2186,7 @@ img.ft-logo {
   border: 1px solid var(--base-white);
   flex: none;
   padding: 15px 34px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -2365,7 +2367,7 @@ img.ft-logo {
 .blog-item-post-date {
   color: var(--base-dark);
   flex: none;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 25px;
   font-weight: 500;
   line-height: 45px;
@@ -2439,7 +2441,7 @@ img.ft-logo {
   line-height: 18px;
   font-weight: 500;
   color: var(--base-dark);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   transition: all 0.3s ease;
 }
 
@@ -2487,7 +2489,7 @@ img.ft-logo {
 }
 
 .solution-item-number {
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 85px;
   font-weight: 500;
   line-height: 90px;
@@ -2572,7 +2574,7 @@ img.ft-logo {
 
 .service-item-icon {
   color: var(--base-dark);
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-size: 16px;
   font-weight: 400;
   line-height: 36px;
@@ -2778,7 +2780,7 @@ img.ft-logo {
 .cta-item-title {
   color: var(--base-white);
   margin-bottom: 10px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 80px;
   font-weight: 400;
   line-height: 110px;
@@ -2793,7 +2795,7 @@ img.ft-logo {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid var(--base-dark);
   padding: 15px 34px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
@@ -2889,7 +2891,7 @@ img.ft-logo {
   background-color: rgba(0, 0, 0, 0);
   border-bottom: 1px solid #d9d9d9;
   padding: 26px 20px 29px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 26px;
   font-weight: 500;
   line-height: 36px;
@@ -2939,7 +2941,7 @@ img.ft-logo {
 .service-details-list-icon {
   color: var(--base-dark);
   margin-right: 10px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-weight: 400;
   text-decoration: none;
   display: inline-block;
@@ -3052,7 +3054,7 @@ img.ft-logo {
   color: var(--base-headingfont-color);
   margin-top: 43px;
   margin-bottom: 10px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 34px;
   font-weight: 500;
 }
@@ -3174,7 +3176,7 @@ img.ft-logo {
   color: var(--base-headingfont-color);
   margin-top: 8px;
   margin-bottom: 30px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 90px;
   font-weight: 500;
   line-height: 100px;
@@ -3240,7 +3242,7 @@ img.ft-logo {
 
 .portfolio-details-small-heading {
   color: var(--base-headingfont-color);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 36px;
   font-weight: 500;
   line-height: 46px;
@@ -3258,7 +3260,7 @@ img.ft-logo {
 .portfolio-details-list-icon {
   color: var(--base-dark);
   margin-right: 10px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-size: 12px;
   font-weight: 400;
   line-height: 26px;
@@ -3339,7 +3341,7 @@ img.ft-logo {
   color: var(--base-headingfont-color);
   margin-top: 3px;
   margin-bottom: 35px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 87px;
   font-weight: 500;
   line-height: 95px;
@@ -3352,7 +3354,7 @@ img.ft-logo {
 
 .blog-details-author-name {
   color: var(--base-headingfont-color);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 23px;
   font-weight: 500;
   line-height: 32px;
@@ -3400,7 +3402,7 @@ img.ft-logo {
 .blockquote-text {
   color: var(--base-dark);
   border-left: 0 rgba(0, 0, 0, 0);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 26px;
   font-style: italic;
   font-weight: 500;
@@ -3422,7 +3424,7 @@ img.ft-logo {
 .blog-details-list-icon {
   color: var(--base-dark);
   margin-right: 10px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-size: 12px;
   font-weight: 400;
   line-height: 26px;
@@ -3493,7 +3495,7 @@ img.ft-logo {
   color: var(--base-dark);
   flex: none;
   margin-right: 20px;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   text-decoration: none;
   position: absolute;
   top: 25px;
@@ -3541,7 +3543,7 @@ img.ft-logo {
   background-color: var(--base-dark);
   justify-content: center;
   align-items: center;
-  font-family: Fontello, sans-serif;
+  font-family: var(--base-bodyfont);
   font-size: 20px;
   line-height: 20px;
   text-decoration: none;
@@ -3558,7 +3560,7 @@ img.ft-logo {
 
 .contact-social-item-link {
   color: var(--base-dark);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 26px;
   font-weight: 500;
   line-height: 36px;
@@ -3582,7 +3584,7 @@ img.ft-logo {
   color: var(--base-dark);
   text-align: center;
   margin-top: 12px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 26px;
   font-weight: 500;
   line-height: 36px;
@@ -3982,7 +3984,7 @@ img.ft-logo {
   text-transform: capitalize;
   background-color: var(--base-dark);
   padding: 12px 20px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
@@ -4117,7 +4119,7 @@ img.ft-logo {
   color: var(--base-headingfont-color);
   margin-top: 39px;
   margin-bottom: 43px;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   font-size: 58px;
   font-weight: 500;
   line-height: 64px;
@@ -4535,7 +4537,7 @@ img.ft-logo {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
   color: var(--base-dark);
 }
 
@@ -4571,7 +4573,7 @@ img.ft-logo {
   line-height: 38px;
   font-weight: 500;
   color: var(--base-white);
-  font-family: var(--base-headingfont);
+  font-family: var(--base-bodyfont);
 }
 
 .cta-phone-block h3>a {
@@ -4892,7 +4894,7 @@ a.card__btn:hover {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--base-bodyfont);
 }
 
 .hero-section {
@@ -4958,6 +4960,7 @@ body {
 
 .brand-card {
   margin: 20px auto;
+  width: 100%;
   padding: 15px;
   overflow: hidden;
   background-color: #fff;
@@ -4966,7 +4969,10 @@ body {
   transition: all 0.4s ease;
   cursor: pointer;
 }
-
+.brand-card img{
+  width: 100%;
+  height: 45px;
+}
 img.about-single-image {
   width: 100%;
 }
@@ -4991,43 +4997,13 @@ img.about-single-image {
   flex: 1;
   z-index: 2;
   color: var(--base-skin);
-  font-family: "EB Garamond", DM sans-serif;
+  font-family: var(--base-bodyfont);
 }
-
-.hero-text h2 {
-  font-size: 3.5rem;
-  margin-bottom: 10px;
-  opacity: 0;
-  color: #000;
-  transform: translateY(30px);
-  /* animation: slideIn 0.8s forwards; */
-  line-height: 50px;
-}
-
-.hero-text h2:nth-child(1) {
-  /* animation-delay: 0.3s; */
-}
-
-.hero-text h2:nth-child(2) {
-  /* animation-delay: 0.6s; */
-
-}
-
-.hero-text h2:nth-child(3) {
-  /* animation-delay: 0.9s; */
-}
-
-.hero-text h2:nth-child(4) {
-  /* animation-delay: 1.2s; */
-}
-
 .hero-text p {
   margin: 20px 0;
-  font-size: 1.1rem;
-  opacity: 0;
-  /* animation: fadeIn 1s forwards 1.5s; */
+  font-size: 20px;
+   opacity: 1;
 }
-
 .hero-button {
   display: inline-block;
   margin-top: 15px;
@@ -5038,21 +5014,8 @@ img.about-single-image {
   border-radius: 4px;
   font-weight: bold;
   opacity: 0;
-  /* animation: fadeIn 1s forwards 1.8s; */
 }
 
-/* @keyframes slideIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-} */
 
 /* -------- RIGHT COLLAGE -------- */
 .floating-collage {
@@ -5195,32 +5158,12 @@ img.about-single-image {
 
 /* HERO TEXT ANIMATION */
 .hero-text h2 {
-  font-size: 3.5rem;
+  font-size: 38px;
   margin-bottom: 10px;
   opacity: 1;
   color: #000;
   transform: none;
-  /* animation: slideIn 0.8s forwards; */
   line-height: 50px;
-}
-
-/* .hero-text h2:nth-child(1) {
-      animation-delay: 0.3s;
-    }
-
-    .hero-text h2:nth-child(2) {
-      animation-delay: 0.6s;
-    }
-
-    .hero-text h2:nth-child(3) {
-      animation-delay: 0.9s;
-    } */
-
-.hero-text p {
-  margin: 20px 0;
-  font-size: 1.1rem;
-  opacity: 1;
-  /* animation: fadeIn 1s forwards 1.2s; */
 }
 
 .hero-button {

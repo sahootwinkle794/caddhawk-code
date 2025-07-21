@@ -202,17 +202,17 @@ var allPanels = $('.accordion > .toggle').children('.toggle-content').hide();
         jQuery('a[rel^="prettyPhoto"]').prettyPhoto();
     });
 
-    $(document).ready(function() {
-            var e = '<div class="prt_floting_customsett">'+
-                '<a href="https://support.preyantechnosys.com/" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-square-facebook"></i><span>Facebook</span></a>'+
-                '<a href="https://preyantechnosys.com/" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-x-twitter"></i><span>Twitter</span></a>'+
-                '<a href="https://1.envato.market/k0oZ5x" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-pinterest-p"></i><span class="buy_link">Pinterest<span></span></span></a>'+
-                '<a href="https://1.envato.market/k0oZ5x" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-youtube"></i><span class="buy_link">Youtube<span></span></span></a>'+
-                '<div class="clearfix"></div>'+
-            '</div>';
+    // $(document).ready(function() {
+    //         var e = '<div class="prt_floting_customsett">'+
+    //             '<a href="https://support.preyantechnosys.com/" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-square-facebook"></i><span>Facebook</span></a>'+
+    //             '<a href="https://preyantechnosys.com/" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-x-twitter"></i><span>Twitter</span></a>'+
+    //             '<a href="https://1.envato.market/k0oZ5x" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-pinterest-p"></i><span class="buy_link">Pinterest<span></span></span></a>'+
+    //             '<a href="https://1.envato.market/k0oZ5x" target="_blank" class="tmtheme_fbar_icons"><i class="fa-brands fa-youtube"></i><span class="buy_link">Youtube<span></span></span></a>'+
+    //             '<div class="clearfix"></div>'+
+    //         '</div>';
 
-        $('body').append(e);
-    });
+    //     $('body').append(e);
+    // });
     
 
 /*------------------------------------------------------------------------------*/
