@@ -1641,7 +1641,9 @@ img.service-tab-image {
 .footer {
   background-color: #0c0c0c;
 }
-
+.social-icon{
+  width: 20%;
+}
 .top-footer {
   padding-top: 25px;
   padding-bottom: 25px;
