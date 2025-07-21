@@ -51,7 +51,7 @@
 
   .kite:nth-child(3) {
     position: absolute;
-    top: 0px;     
+    top: 0px;
     left: 0px;
     width: 180px !important;
     height: 180px !important;
@@ -76,6 +76,7 @@
     top: 0px;
     left: 0px;
   }
+
 }
 
 @media only screen and (max-width: 1550px) and (min-width: 1441px) {
@@ -86,6 +87,90 @@
 
   .hero-text h2 {
     font-size: 38px;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  .separator-line {
+    width: 1px;
+    height: 50vh;
+    background-color: #160eff;
+  }
+
+  .hero-slider {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  .hero-section {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 60px 80px;
+    min-height: 100vh;
+    background-image: url('../images/busy.jpg');
+    background-size: cover;
+    background-position: center !important;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .kite {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .kite:nth-child(1) {
+    position: absolute;
+    top: 60px !important;
+    left: 0px;
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .kite:nth-child(2) {
+    position: absolute;
+    bottom: 170px !important;
+    left: 160px !important;
+  }
+
+  .kite:nth-child(3) {
+    position: absolute;
+    top: 50px !important;
+    left: 240px !important;
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  .kite:nth-child(4) {
+    position: absolute;
+    top: 140px !important;
+    left: 340px !important;
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .kite:nth-child(5) {
+    position: absolute;
+    top: 300px !important;
+    left: 160px !important;
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  .kite:nth-child(6) {
+    position: absolute;
+    top: 220px !important;
+    left: 230px !important;
+    width: 150px !important;
+    height: 150px !important;
   }
 }
 
