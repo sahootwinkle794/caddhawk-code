@@ -627,8 +627,8 @@ img.service-tab-image {
 /*homepage-2 hero section*/
 
 .hero-section.style2 .hero-slider-wrapper.style2 {
-  width: 100%;
-  min-height: 850px;
+  width: 30%;
+  min-height: 150px;
   background-image: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .30)),
     url("../images/busy.jpg");
   background-position: 0 0, 50%;
@@ -1988,7 +1988,6 @@ img.ft-logo {
   color: var(--base-headingfont-color);
   text-align: center;
   text-transform: capitalize;
-  border-bottom: 1px solid var(--base-dark);
   padding-bottom: 5px;
   font-family: var(--base-bodyfont);
   font-size: 84px;
@@ -2114,6 +2113,7 @@ img.ft-logo {
 
 .changing-image-icon {
   position: relative;
+  width: 10%; 
 }
 
 .changing-image-heading {
@@ -2206,7 +2206,7 @@ img.ft-logo {
 }
 
 .marquee-background {
-  background-color: #e9ae6d;
+  background-color: var(--base-skin);
 }
 
 .section-title-grid {
@@ -2637,11 +2637,14 @@ img.ft-logo {
 .service-item.style2 {
   position: relative;
   padding: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.20);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
-  border-left: 1px solid rgba(255, 255, 255, 0.20);
+  border:1px solid rgba(255, 255, 255, 0.20);
 }
-
+.service-item.style2 .service-item-hover-box h3 a{
+  font-size: 28px;
+}
+ .service-item.style2 .service-item-hover-box p{
+  font-size: 18px;
+}
 .service-item.style2 .service-item-inner {
   position: relative;
   background-color: transparent;
@@ -3164,7 +3167,7 @@ img.ft-logo {
 }
 
 .details-page-content-wrapper {
-  margin-top: -608px;
+  margin-top: -608px; 
 }
 
 .portfolio-details-category {
@@ -3713,8 +3716,8 @@ img.ft-logo {
   display: block;
 }
 
-.gif {
-  width: 60%;
+.about-logo {
+  width: 20%;
   display: block;
   position: absolute;
   top: 36%;
@@ -3894,7 +3897,9 @@ img.ft-logo {
   color: var(--base-dark);
   text-decoration: none;
 }
-
+.portfolio-tab-nav-link a.active{
+  color: white;
+}
 .portfolio-tab-nav-link.active {
   color: var(--base-white);
   background-color: var(--base-skin);
@@ -3911,7 +3916,7 @@ img.ft-logo {
 }
 
 .portfolio-tab-nav-link.style2.active {
-  color: var(--base-white);
+  color: var(--base-white) !important;
   background-color: var(--base-skin);
   border: 0 var(--base-skin);
 }
@@ -3920,7 +3925,9 @@ img.ft-logo {
   background-color: var(--base-skin);
   border-color: var(--base-skin);
 }
-
+li.portfolio-tab-nav-link.prt-tab-link.style2.active a {
+    color: white !important;
+}
 .dot {
   width: 10px;
   height: 10px;
