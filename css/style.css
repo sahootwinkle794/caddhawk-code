@@ -5247,7 +5247,18 @@ img.about-single-image {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.chs-img{
+  width: 25%;
+  margin-top: 20%;
+  margin-bottom: 20px;
+}
+.slick-slide img{
+  display: inline-block;
+}
+.team-content-wrapper-about{
+  display: flex;
+  justify-content: center !important;
+}
 @keyframes fullEnter {
   0% {
     opacity: 0;
