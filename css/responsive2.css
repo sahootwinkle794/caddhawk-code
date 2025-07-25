@@ -28,7 +28,7 @@
     width: 101px;
     height: 104px;
   }
- 
+
 }
 
 @media only screen and (max-width: 1900px) and (min-width: 1651px) {
@@ -63,6 +63,7 @@
 
   .floating-collage {
     position: relative;
+    top: 18% !important;
   }
 
   .kite {
@@ -154,8 +155,9 @@
 
   .floating-collage {
     position: relative;
+    top: 18%;
   }
-
+ 
   .kite {
     width: 150px !important;
     height: 150px !important;
@@ -242,6 +244,8 @@
     overflow: hidden;
   }
 
+  
+
   .hero-section {
     display: flex;
     justify-content: space-between !important;
@@ -320,6 +324,7 @@
   .team-content {
     width: 121px !important;
   }
+  
 }
 
 @media only screen and (max-width: 1299px) and (min-width: 1200px) {
