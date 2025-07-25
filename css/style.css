@@ -1262,11 +1262,13 @@ img.service-tab-image {
 .portfolio-item-image {
   display: inline-block;
 }
-
+img.portfolio-details-image{
+  width: 100%;
+}
 .portfolio-item-content {
   opacity: 0;
   transform: translate(0px, 0px);
-  width: 294px;
+  width: 373px;
   background-color: var(--base-white);
   padding: 10px 15px 12px 26px;
   display: inline-block;
@@ -1303,7 +1305,9 @@ img.service-tab-image {
   grid-template-rows: auto;
   grid-template-columns: 5fr 7fr;
 }
-
+.blog-details-image-holder img{
+  width: 100%;
+}
 .team-button-block {
   color: var(--base-dark);
   justify-content: flex-end;

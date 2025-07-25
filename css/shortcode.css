@@ -2325,12 +2325,12 @@ textarea.prt-select {
     Boxes-Spacing
 ------------------------*/
 
-.row.prt-boxes-spacing-60px, .prt-boxes-spacing-60px { margin: 0 -30px; }
+/* .row.prt-boxes-spacing-60px, .prt-boxes-spacing-60px { margin: 0 -30px; }
 .row.prt-boxes-spacing-60px .prt-box-col-wrapper {
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 60px;
-}
+} */
 
 .row.prt-boxes-spacing-30px, .prt-boxes-spacing-30px { margin: 0 -20px; }
 .row.prt-boxes-spacing-30px .prt-box-col-wrapper {
