@@ -3619,7 +3619,7 @@ img.ft-logo {
 .contact-social-item:hover .contact-social-item-icon {
   transform: translate3d(0px, 27px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
-  background-color: rgb(246, 184, 118);
+  background-color: var(--base-skin);
 }
 
 .contact-form-section {
@@ -3661,7 +3661,7 @@ img.ft-logo {
   color: var(--base-bodyfont-color);
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(0, 0, 0, 0);
-  border-bottom-color: #d9d9d9;
+  border-bottom-color: #0d6efd;
   margin-bottom: 0;
   transition: border .2s, border-color .3s;
 }
@@ -3684,7 +3684,7 @@ img.ft-logo {
   color: var(--base-bodyfont-color);
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(0, 0, 0, 0);
-  border-bottom-color: #d9d9d9;
+  border-bottom-color: #0d6efd;
   margin-bottom: 0;
   transition: border .3s;
 }
