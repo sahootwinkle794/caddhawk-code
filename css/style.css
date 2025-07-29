@@ -8,7 +8,9 @@
   --base-headingfont: 'EB Garamond', sans-serif;
   --base-headingfont-color: #000000;
 }
-
+html{
+  overflow-x: hidden;
+}
 .prt-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -889,7 +891,7 @@ img.service-tab-image {
 
 .prt-fid-inner span {
   height: 100%;
-  min-height: 100%;
+  min-height: 100%; 
   font-size: 48px;
   line-height: 58px;
   color: var(--base-dark);
@@ -1979,7 +1981,6 @@ img.ft-logo {
   background-size: cover;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: -108px;
   position: relative;
 }
 
@@ -2002,8 +2003,6 @@ img.ft-logo {
 .page-title-bradcrumb {
   justify-content: center;
   align-items: center;
-  padding-top: 22px;
-  padding-bottom: 24px;
   display: flex;
 }
 
@@ -2045,9 +2044,9 @@ img.ft-logo {
 }
 
 .page-title-inner {
-  height: 420px;
+  height: 214px;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   display: flex;
 }
 
@@ -2080,7 +2079,7 @@ img.ft-logo {
 }
 
 .about-history-section {
-  background-color: var(--base-dark);
+  background-color: var(--base-skin);
   background-image: url('../images/bg-image-01.png');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -3619,7 +3618,7 @@ img.ft-logo {
 .contact-social-item:hover .contact-social-item-icon {
   transform: translate3d(0px, 27px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
-  background-color: rgb(246, 184, 118);
+  background-color: var(--base-skin);
 }
 
 .contact-form-section {
@@ -3661,7 +3660,7 @@ img.ft-logo {
   color: var(--base-bodyfont-color);
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(0, 0, 0, 0);
-  border-bottom-color: #d9d9d9;
+  border-bottom-color: #0d6efd;
   margin-bottom: 0;
   transition: border .2s, border-color .3s;
 }
@@ -3684,7 +3683,7 @@ img.ft-logo {
   color: var(--base-bodyfont-color);
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(0, 0, 0, 0);
-  border-bottom-color: #d9d9d9;
+  border-bottom-color: #0d6efd;
   margin-bottom: 0;
   transition: border .3s;
 }
@@ -4301,7 +4300,7 @@ li.portfolio-tab-nav-link.prt-tab-link.style2.active a {
 }
 
 .home2-services-section {
-  background-color: var(--base-dark);
+  background-color: var(--base-skin);
   background-image: url(../images/bg-image-01.png);
   background-position: 50%;
   background-repeat: no-repeat;
