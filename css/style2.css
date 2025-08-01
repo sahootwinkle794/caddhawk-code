@@ -2,6 +2,7 @@
   --base-bodyfont: 'DM Sans', sans-serif;
   --base-bodyfont-color: #4c4c4c;
   --base-skin: #2425f9;
+  --base-bg: #044ca6;
   --base-dark: #000000;
   --base-grey: #b6c6fe;
   --base-white: #ffffff;
@@ -1228,7 +1229,7 @@ img.service-tab-image {
 }
 
 .portfolio-section {
-  background-color: var(--base-dark);
+  background-color: var(--base-bg);
   background-image: url('../images/bg-image-01.png');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -1416,7 +1417,7 @@ img.service-tab-image {
 }
 
 .fa-brands {
-  margin-right:0px;
+  margin-right: 0px;
 }
 
 .testimonial-title-wrapper {
