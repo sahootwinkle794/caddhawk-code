@@ -2156,8 +2156,8 @@ img.ft-logo {
 }
 
 .scroll-changing-image-content {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 10px;
+  padding-bottom: 40px;
   padding-right: 40px;
 }
 
@@ -3193,15 +3193,24 @@ img.ft-logo {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
+.service-details-title-wrapper h4{
+  font-weight: 300;
+}
 .details-empty-block {
   background-color: var(--base-grey);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.serv-h4{
+  color: var(--base-skin);
+}
 .serv-con{
-  margin-top: 20px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.serv-con .row{
+  margin-bottom: 20px;
 }
 .details-page-top-grid {
   grid-column-gap: 30px;
