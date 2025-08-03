@@ -5091,7 +5091,7 @@ img.about-single-image {
 
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   right: 0;
   transform: translateY(-50%);
