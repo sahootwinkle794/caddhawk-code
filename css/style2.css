@@ -5320,7 +5320,7 @@ img.about-single-image {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 30px;
+    gap: 50px;
   }
 
   .main-menu .menu>li {
@@ -5333,6 +5333,7 @@ img.about-single-image {
     font-weight: 600;
     padding: 10px 0;
     display: block;
+    font-size:18px ;
   }
 
   .main-menu .menu>li:hover>a {
@@ -5378,6 +5379,7 @@ img.about-single-image {
     padding: 8px 12px;
     display: block;
     border-radius: 4px;
+    font-size: 18px;
     transition: all 0.3s ease;
   }
 
