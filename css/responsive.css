@@ -28,7 +28,7 @@
     width: 101px;
     height: 104px;
   }
- 
+
 }
 
 @media only screen and (max-width: 1900px) and (min-width: 1651px) {
@@ -2416,7 +2416,8 @@
 
 }
 
-@media screen and (max-width: 479px) {
+
+@media only screen and (max-width: 750px) and (min-width: 350px) {
   #name.prt-node-54 {
     grid-column-end: 2;
   }
@@ -2442,4 +2443,125 @@
     grid-row: 6 / 7;
     grid-column-end: 2;
   }
+
+  .separator-line {
+    display: none;
+  }
+
+  .hr-col {
+    position: relative;
+    height: 16vh;
+  }
+
+  .brand-card img {
+    width: 100%;
+    height: 55px;
+  }
+
+  .ft-separater {
+    display: none;
+  }
+
+  .kite img {
+    height: 34vh;
+    margin-top: 127px !important;
+  }
+
+  .row.row-cols-2.align-col {
+    width: 120%;
+  }
+
+  .footer-social-items.row {
+    width: 30% !important;
+  }
+
+  .col-md-1.ft-col {
+    margin-top: 20px;
+  }
+
+  p.footer-description-text {
+    margin-top: 20px;
+  }
+
+  .row.row-cols-2.align-col {
+    margin-top: 20px;
+  }
+
+  .team-item-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  img.ft-logo {
+    width: 220px !important;
+    height: 101px !important;
+  }
+
+  .team-thumbnail {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+
+  .hero-text {
+    padding: 0px !important;
+    top: 300% !important;
+  }
+
+  .hero-text h2 {
+    font-size: 19px !important;
+    margin: 0px !important;
+    line-height: 25px !important;
+  }
+
+  .hero-text p {
+    margin: 20px 0;
+    margin-bottom: 40px !important;
+    font-size: 15px !important;
+    opacity: 1;
+  }
+
+  .hero-section {
+    min-height: auto !important;
+    padding: 0px !important;
+  }
+
+  .team-thumbnail {
+    z-index: 999;
+    width: 56px;
+    height: 57px;
+  }
+
+  .hero-slider {
+    height: 57vh !important;
+  }
+
+  .section-title-heading {
+    text-align: center;
+  }
+
+  .team-title-wrapper p {
+    text-align: center;
+  }
+
+  .team-button-block {
+    justify-content: center;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50% !important;
+    left: 0;
+    right: 0;
+    /* transform: translateY(-50%); */
+  }
+
+  .details-page-content-wrapper {
+    margin-top: 60px;
+  }
+  .details-empty-block {
+    height: 843px;
+}
 }
