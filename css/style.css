@@ -9,7 +9,7 @@
   --base-headingfont: 'EB Garamond', sans-serif;
   --base-headingfont-color: #000000;
 }
-html{
+body,html{
   overflow-x: hidden;
 }
 .prt-layout-grid {
@@ -4021,9 +4021,9 @@ li.portfolio-tab-nav-link.prt-tab-link.style2.active a {
   left: 34%;
 }
 .map-dot-box.dot-2 {
-  position: absolute;
-  top: 9%;
-  left: 49%;
+    position: absolute;
+    top: 22%;
+    right: 34%;
 }
 .map-dot-box.dot-9 {
   position: absolute;
