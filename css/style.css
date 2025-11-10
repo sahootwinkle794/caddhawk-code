@@ -5847,3 +5847,98 @@ img.about-single-image {
 ul .mega-submenu {
   list-style: none;
 }
+
+
+/* contact page start  */
+.vertical-tabs-container {
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tab-buttons {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  border-right: 1px solid #ddd;
+}
+
+.tab-buttons .tab-btn {
+  padding: 25px;
+  background: none;
+  border: none;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  font-size: 26px;
+  color: var(--tg-theme-txt);
+  border-bottom: 1px solid #eee;
+  transition: background 0.3s;
+}
+
+
+.tab-buttons .tab-btn p {
+  color: var(--tg-theme-txt);
+  margin: 0px;
+}
+
+.tab-buttons .tab-btn h4 {
+  color: var(--tg-theme-txt);
+}
+
+.tab-buttons .tab-btn:hover,
+.tab-buttons .tab-btn.active {
+  background-color: #dddddd57;
+  font-weight: bold;
+  border-right: 4px solid #007bff;
+  color: var(--tg-theme-txt);
+}
+
+.tab-content {
+  flex: 3 1 600px;
+  padding: 20px;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* Responsive: horizontal tabs on small screens */
+@media (max-width: 768px) {
+  .vertical-tabs-container {
+    flex-direction: column;
+  }
+
+  .tab-buttons {
+    flex-direction: column;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .tab-buttons .tab-btn {
+    /* flex: 1; */
+    min-width: auto;
+    border-right: 1px solid #eee;
+    text-align: center;
+
+  }
+
+  .tab-buttons .tab-btn:last-child {
+    border-right: none;
+  }
+}
+
+.location-text {
+  margin-left: 28px;
+}
