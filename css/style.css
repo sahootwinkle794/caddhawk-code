@@ -5383,7 +5383,9 @@ img.about-single-image {
   height: 50vh;
   background-color: #160eff;
 }
-
+.story-con{
+  background-color: white;
+}
 
 .kite {
   position: absolute;
